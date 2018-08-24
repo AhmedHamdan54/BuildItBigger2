@@ -1,0 +1,23 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Aug 20, 2018 8:35:51 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Aug 20, 2018 8:35:52 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\Ahmad\Desktop\BuildItBigger2\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+Aug 20, 2018 8:35:52 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Aug 20, 2018 5:35:52 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\Users\Ahmad\Desktop\BuildItBigger2\backend) is not equal to your 
+web application root (C:\Users\Ahmad\Desktop\BuildItBigger2\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Aug 20, 2018 5:35:52 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Aug 20, 2018 5:35:53 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@localhost:8080
+Aug 20, 2018 5:35:53 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Aug 20, 2018 5:35:53 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Aug 20, 2018 8:35:53 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
